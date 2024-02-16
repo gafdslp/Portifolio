@@ -30,6 +30,8 @@ body{
     display: flex;
 }
 
+
+
 .navbar ul li{
     list-style: none;
 }
@@ -412,13 +414,18 @@ footer .cols .news-col form button i{
     left: 50px;
 }
 
+
+
+
+
+
 @media screen and (max-width: 1100px) {
-    .guarantee{
+    .cards{
         flex-wrap: wrap;
         gap: 10px;
     }
 
-    .guarantee .item{
+    .cards .item{
         flex-basis: 49%;
     }
 
@@ -485,7 +492,7 @@ footer .cols .news-col form button i{
         font-size: 14px;
     }
 
-    .guarantee .item{
+    .cards .item{
         flex-basis: 100%;
     }
 
@@ -573,6 +580,11 @@ footer .cols .news-col form button i{
 
 @media screen and (max-width: 480px) {
     
+    .navbar ul .contactNavBar{
+        display: none;
+    }
+
+
     .main p.title{
         font-size: 18px;
     }
@@ -581,12 +593,21 @@ footer .cols .news-col form button i{
         font-size: 10px;
     }
 
-    .guarantee .item .info h3{
+    
+    
+    .cards .item .info h3{
         font-size: 20px;
     }
-
-    .guarantee .item .info p{
+    
+    .cards .item .info p{
         font-size: 12px;
     }
+    
+    .cards .item .icon{
+        margin-right: 20px;
+    }
 
+    .cards .item .seta {
+       display: none;
+    }
 }
